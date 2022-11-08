@@ -1919,10 +1919,12 @@ body {
         width: 100%;
         margin-top: 10px;
     }
+
     .flexbox5 {
         display: block;
         width: 121%;
     }
+
     .gridbox11 {
         width: 100%;
     }
@@ -1931,27 +1933,78 @@ body {
         width: 100%;
         margin-top: 10px;
     }
-.btn{    margin-right: 10px;}
-.foambox{ 
-    width: 142%;}
-    .btn3{    margin-left: 499px;}
-    .topmain{    width: 142%;}
-    .box01 { margin-left: 80px;}
-    .box02 { margin-left: 150px;}
-    .box03 { margin-left: 200px;}
-    .bluecontainermain{display: block;}
-    .container02{width: 100%;}
-    .container02 img{width: 100%;}
-    .rowmain{
+
+    .btn {
+        margin-right: 10px;
+    }
+
+    .foambox {
+        width: 142%;
+    }
+
+    .btn3 {
+        margin-left: 499px;
+    }
+
+    .topmain {
+        width: 142%;
+    }
+
+    .box01 {
+        margin-left: 80px;
+    }
+
+    .box02 {
+        margin-left: 150px;
+    }
+
+    .box03 {
+        margin-left: 200px;
+    }
+
+    .bluecontainermain {
         display: block;
     }
-    .divo1{align-items: center;}
-    .picbox1{justify-content: center;}
-    .picbox2{justify-content: center;}
-    .dma02{width: 135%;}
-    .listmain{width: 70%;}
-    .footer1{    width: 140%;}
-    .footerlast{    width: 140%;}
+
+    .container02 {
+        width: 100%;
+    }
+
+    .container02 img {
+        width: 100%;
+    }
+
+    .rowmain {
+        display: block;
+    }
+
+    .divo1 {
+        align-items: center;
+    }
+
+    .picbox1 {
+        justify-content: center;
+    }
+
+    .picbox2 {
+        justify-content: center;
+    }
+
+    .dma02 {
+        width: 135%;
+    }
+
+    .listmain {
+        width: 70%;
+    }
+
+    .footer1 {
+        width: 140%;
+    }
+
+    .footerlast {
+        width: 140%;
+    }
 
 }
 
@@ -1960,44 +2013,32 @@ body {
 @media only screen and (max-width: 1200px) {}
 
 
-@media only screen and (max-width: 2200px) and (min-width:1500px) {
-    .logo {
-        padding-left: 110px;
-    }
-
+@media only screen and (min-width:1400px) and (max-width: 2200px) {
     .phone {
-        padding-left: 1350px;
-    }
+        padding-left: 30%;}
+        .top a{    margin-left: 10%;
+        }
+        .btn{margin-right: 15%;}
+        .navbar{    padding-left: 12%;}
+        .section1 h2{    padding-left: 15%;}
+        .section2{margin-left: 8%;}
+        .maincard{    margin-left: 17%;}
+        .linecard{    margin-left: 10%;}
+        .grid-container{margin-left: 17%;}
+        .flexbox2{margin-left: 17%;}
+        .flexbox3{margin-left: 17%;}
+        .flexbox4{margin-left: 17%;}
+        .flexbox5{margin-left: 17%;}
+        .btn3{    margin-left: 46%;}
+        .box01{margin-left: 20%;}
+        .bluecontainermain{    margin-left: 13%;
+            width: 75%;}
+            .rowmain{margin-left: 15%;}
 
-    .navbar li {
-        padding: 29px;
-        padding-left: 110px;
-    }
 
-    .btn button {
-        margin-right: 130px;
     }
+    
 
-    .section1 h2 {
-        font-size: 30px;
-        padding-left: 160px;
-    }
-
-    .section2 h1 {
-        padding-left: 150px;
-        font-size: 90px;
-    }
-
-    .section2 p {
-        font-size: 40px;
-        padding-left: 169px;
-    }
-
-    .maincard {
-        margin-left: 150px;
-    }
-
-}
 
 @media only screen and (max-width: 600px) {
 
@@ -2039,6 +2080,9 @@ body {
 
     .linecard {
         padding-left: 10%;
+    }
+    .linecard1 {
+        margin-left: 1%;
     }
 
     .gridbox1 {
@@ -2161,3 +2205,110 @@ body {
         width: 130%;
     }
 }
+@media only screen and (max-width:100px){
+    
+}
+
+@media only screen and (max-width: 1100px) {   .phone{ padding-left: 33%;}
+.navbar{font-size: 0.9rem;}}
+@media only screen and (max-width: 1290px) {
+    .phone{    padding-left: 44%;}
+
+}
+@media only screen and (min-width: 2200px) {
+    .maincard {
+        margin-left: 500px;
+    }
+
+    .linecard1 {
+        margin-left: 523px;
+    }
+
+    .gridbox3 {
+        width: 40%;
+    }
+
+    .gridbox2 {
+        width: 40%;
+    }
+
+    .gridbox1 {
+        width: 40%;
+    }
+
+    .gridbox4 {
+        width: 58%;
+    }
+
+    .gridbox5 {
+        width: 40%;
+    }
+
+    .gridbox6 {
+        width: 58%;
+    }
+
+    .gridbox7 {
+        width: 40%;
+    }
+
+    .gridbox8 {
+        width: 40%;
+    }
+
+    .gridbox9 {
+        width: 40%;
+    }
+
+    .gridbox10 {
+        width: 40%;
+    }
+
+    .gridbox6 {
+        width: 58%;
+    }
+
+    .gridbox7 {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .top {
+        width: 100%;
+    }
+
+    .btn {
+        margin-right: 0px;
+    }
+
+    .img3 {
+        padding-left: 40%;
+    }
+
+    .linecard1 {
+        margin-left: 1%;
+    }
+
+    .grid-container {
+        width: 132%;
+    }
+
+    .flexbox2 {
+        width: 132%;
+    }
+
+    .flexbox3 {
+        width: 132%;
+    }
+
+    .flexbox4 {
+        width: 132%;
+    }
+
+    .flexbox5 {
+        width: 132%;
+    }
+
+}
+
